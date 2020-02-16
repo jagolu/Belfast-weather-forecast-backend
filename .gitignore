@@ -75,6 +75,8 @@ _[Ss]cripts
 *.dot[Cc]over
 
 
+Belfast-weather-forecast-Frontend/*
+!Belfast-weather-forecast-Frontend/readme.txt
 Bundles/BelfastWF-fend/*
 .vs/Belfast-weather-forecast-backend/v16/Server/sqlite3/storage.ide-shm
 .vs/Belfast-weather-forecast-backend/config/applicationhost.config
