@@ -25,9 +25,10 @@ namespace BelfastWF_bkend.Controllers
                 return BadRequest(ModelState);
             }
 
-
+            //Register the user in the repository
             IdentityResult result = await _repo.RegisterUser(userModel);
 
+            //Check if there is any error
             IHttpActionResult errorResult = GetErrorResult(result);
 
             if (errorResult != null)

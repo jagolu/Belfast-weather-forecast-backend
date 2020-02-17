@@ -24,7 +24,7 @@ namespace BelfastWF_bkend.Providers
 
                 if (user == null)
                 {
-                    context.SetError("invalid_grant", "The user name or password is incorrect.");
+                    context.SetError("invalid_grant", "The email or password are incorrect.");
                     return;
                 }
             }

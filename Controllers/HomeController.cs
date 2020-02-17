@@ -13,31 +13,28 @@ namespace BelfastWF_bkend.Controllers
         [AllowAnonymous]
         public ActionResult weatherForecast()
         {
-            ViewBag.auth = true;
+            ViewBag.auth = true; //To see the logout button
             return View();
         }
         
         [AllowAnonymous]
         public ActionResult SignUp()
         {
-            if (Request.IsAuthenticated)
-            {
-                return RedirectToAction("weatherForecast");
-            }
-
-            ViewBag.showLogIn = true;
+            ViewBag.showLogIn = true; //To see the log in button
             return View();
         }
 
         [AllowAnonymous]
         public ActionResult LogIn()
         {
-            ViewBag.showSignUp = true;
+            ViewBag.showSignUp = true; //To see the sign up button
             return View();
         }        
         
         public ActionResult LogOut()
         {
+            //We just redirect to the LogIn because the client side will
+            //handle the log out action removing the session token
             return RedirectToAction("LogIn");
         }
     }

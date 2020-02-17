@@ -31,8 +31,8 @@ namespace BelfastWF_bkend
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
             {
                 AllowInsecureHttp = true,
-                TokenEndpointPath = new PathString("/login"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
+                TokenEndpointPath = new PathString("/login"), //Path for getting the session token
+                AccessTokenExpireTimeSpan = TimeSpan.FromDays(1), //The token expires in 1 day
                 Provider = new SimpleAuthorizationServerProvider()
             };
 
