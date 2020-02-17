@@ -77,7 +77,7 @@ _[Ss]cripts
 
 Belfast-weather-forecast-Frontend/*
 !Belfast-weather-forecast-Frontend/readme.txt
-Bundles/BelfastWF-fend/*
+Bundles/Belfast-weather-forecast-Frontend/*
 .vs/Belfast-weather-forecast-backend/v16/Server/sqlite3/storage.ide-shm
 .vs/Belfast-weather-forecast-backend/config/applicationhost.config
 .vs/Belfast-weather-forecast-backend/v16/Server/sqlite3/db.lock

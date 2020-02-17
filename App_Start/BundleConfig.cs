@@ -9,15 +9,15 @@ namespace BelfastWF_bkend
             // Angular bundles
             bundles.Add(new ScriptBundle("~/bundles/Angular")
               .Include(
-                "~/bundles/BelfastWF-fend/inline.*",
-                "~/bundles/BelfastWF-fend/polyfills.*",
-                "~/bundles/BelfastWF-fend/scripts.*",
-                "~/bundles/BelfastWF-fend/vendor.*",
-                "~/bundles/BelfastWF-fend/runtime.*",
-                "~/bundles/BelfastWF-fend/main.*"));
+                "~/bundles/Belfast-weather-forecast-Frontend/inline.*",
+                "~/bundles/Belfast-weather-forecast-Frontend/polyfills.*",
+                "~/bundles/Belfast-weather-forecast-Frontend/scripts.*",
+                "~/bundles/Belfast-weather-forecast-Frontend/vendor.*",
+                "~/bundles/Belfast-weather-forecast-Frontend/runtime.*",
+                "~/bundles/Belfast-weather-forecast-Frontend/main.*"));
 
             bundles.Add(new StyleBundle("~/Content/Angular")
-              .Include("~/bundles/BelfastWF-fend/styles.*"));
+              .Include("~/bundles/Belfast-weather-forecast-Frontend/styles.*"));
         }
     }
 }

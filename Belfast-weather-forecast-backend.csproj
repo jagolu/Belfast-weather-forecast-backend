@@ -14,7 +14,7 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BelfastWF_bkend</RootNamespace>
+    <RootNamespace>BelfastWeatherForecastBackend</RootNamespace>
     <AssemblyName>BelfastWF_bkend</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
@@ -199,28 +199,7 @@
     <None Include="Views\Home\SignUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BelfastWF-fend\.gitignore" />
-    <Content Include="BelfastWF-fend\e2e\protractor.conf.js" />
-    <Content Include="BelfastWF-fend\src\app\app.component.css" />
-    <Content Include="BelfastWF-fend\src\app\app.component.html" />
-    <Content Include="BelfastWF-fend\src\favicon.ico" />
-    <Content Include="BelfastWF-fend\src\index.html" />
-    <Content Include="BelfastWF-fend\src\karma.conf.js" />
-    <Content Include="BelfastWF-fend\src\styles.css" />
     <Content Include="favicon.ico" />
-    <Content Include="BelfastWF-fend\e2e\tsconfig.e2e.json" />
-    <Content Include="BelfastWF-fend\src\assets\.gitkeep" />
-    <Content Include="BelfastWF-fend\src\browserslist" />
-    <Content Include="BelfastWF-fend\src\tsconfig.app.json" />
-    <Content Include="BelfastWF-fend\src\tsconfig.spec.json" />
-    <Content Include="BelfastWF-fend\src\tslint.json" />
-    <Content Include="BelfastWF-fend\.editorconfig" />
-    <Content Include="BelfastWF-fend\angular.json" />
-    <Content Include="BelfastWF-fend\package-lock.json" />
-    <Content Include="BelfastWF-fend\package.json" />
-    <Content Include="BelfastWF-fend\README.md" />
-    <Content Include="BelfastWF-fend\tsconfig.json" />
-    <Content Include="BelfastWF-fend\tslint.json" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -239,18 +218,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="BelfastWF-fend\e2e\src\app.e2e-spec.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\e2e\src\app.po.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\app\app.component.spec.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\app\app.component.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\app\app.module.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\environments\environment.prod.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\environments\environment.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\main.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\polyfills.ts" />
-    <TypeScriptCompile Include="BelfastWF-fend\src\test.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
