@@ -18,6 +18,10 @@ namespace BelfastWF_bkend.Controllers
         // POST: api/Account/Register
         [AllowAnonymous]
         [Route("Register")]
+        /**
+         * Register a new user in the app
+         * @param userModel The information of the user
+         */
         public async Task<IHttpActionResult> Register([FromBody] UserModel userModel)
         {
             if (!ModelState.IsValid)
@@ -39,6 +43,9 @@ namespace BelfastWF_bkend.Controllers
             return Ok();
         }
 
+        /**
+         * Disposes the class
+         */
         protected override void Dispose(bool disposing)
         {
             if (disposing)

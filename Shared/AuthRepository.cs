@@ -19,6 +19,10 @@ namespace BelfastWF_bkend.Shared
             _userManager = new UserManager<IdentityUser>(new UserStore<IdentityUser>(_ctx));
         }
 
+        /**
+         * Register a user in the app
+         * @param userModel The information of the user
+         */
         public async Task<IdentityResult> RegisterUser(UserModel userModel)
         {
             IdentityUser user = new IdentityUser
@@ -31,6 +35,11 @@ namespace BelfastWF_bkend.Shared
             return result;
         }
 
+        /**
+         * Find a user in the user manager
+         * @param userName. The email of the user
+         * @param password. The password of the user
+         */
         public async Task<IdentityUser> FindUser(string userName, string password)
         {
             IdentityUser user = await _userManager.FindAsync(userName, password);
@@ -38,6 +47,9 @@ namespace BelfastWF_bkend.Shared
             return user;
         }
 
+        /**
+         * Disposes the class
+         */
         public void Dispose()
         {
             _ctx.Dispose();

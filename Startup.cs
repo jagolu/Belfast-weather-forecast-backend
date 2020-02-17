@@ -26,6 +26,9 @@ namespace BelfastWF_bkend
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
 
+        /**
+         * Configures the auth of the app
+         */
         public void ConfigureOAuth(IAppBuilder app)
         {
             OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
