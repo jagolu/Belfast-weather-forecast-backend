@@ -13,10 +13,7 @@ namespace BelfastWF_bkend.Controllers
         [AllowAnonymous]
         public ActionResult weatherForecast()
         {
-            if (!Request.IsAuthenticated)
-            {
-                return RedirectToAction("LogIn");
-            }
+            ViewBag.auth = true;
             return View();
         }
         
@@ -35,13 +32,13 @@ namespace BelfastWF_bkend.Controllers
         [AllowAnonymous]
         public ActionResult LogIn()
         {
-            if (Request.IsAuthenticated)
-            {
-                return RedirectToAction("weatherForecast");
-            }
-
             ViewBag.showSignUp = true;
             return View();
+        }        
+        
+        public ActionResult LogOut()
+        {
+            return RedirectToAction("LogIn");
         }
     }
 }
