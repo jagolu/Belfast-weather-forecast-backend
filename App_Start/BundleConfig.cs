@@ -14,7 +14,8 @@ namespace BelfastWF_bkend
                 "~/bundles/Belfast-weather-forecast-Frontend/scripts.*",
                 "~/bundles/Belfast-weather-forecast-Frontend/vendor.*",
                 "~/bundles/Belfast-weather-forecast-Frontend/runtime.*",
-                "~/bundles/Belfast-weather-forecast-Frontend/main.*"));
+                "~/bundles/Belfast-weather-forecast-Frontend/main.*",
+                "~/bundles/Belfast-weather-forecast-Frontend/assets.*"));
 
             bundles.Add(new StyleBundle("~/Content/Angular")
               .Include("~/bundles/Belfast-weather-forecast-Frontend/styles.*"));

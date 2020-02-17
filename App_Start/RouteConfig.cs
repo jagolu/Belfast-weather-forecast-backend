@@ -10,9 +10,9 @@ namespace BelfastWF_bkend
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: "Default",
+                name: "LogIn",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "WeatherForecast", id = UrlParameter.Optional }
+                defaults: new { controller = "Home", action = "LogIn", id = UrlParameter.Optional }
             );
         }
     }
