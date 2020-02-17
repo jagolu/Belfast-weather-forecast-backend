@@ -195,7 +195,33 @@
     <Compile Include="Shared\AuthRepository.cs" />
     <Compile Include="Startup.cs" />
     <Content Include=".gitignore" />
+    <Content Include="Belfast-weather-forecast-Frontend\.gitignore" />
+    <Content Include="Belfast-weather-forecast-Frontend\e2e\protractor.conf.js" />
+    <Content Include="Belfast-weather-forecast-Frontend\Readme.txt" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\app\app.component.css" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\app\app.component.html" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\app\components\Identity\login\login.component.html" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\app\components\Identity\register\register.component.html" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\app\components\shared\navbar\navbar.component.html" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\app\components\weather-forecast\weather-forecast.component.html" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\favicon.ico" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\index.html" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\karma.conf.js" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\styles.css" />
     <Content Include="Views\Home\LogIn.cshtml" />
+    <Content Include="Belfast-weather-forecast-Frontend\e2e\tsconfig.e2e.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\.editorconfig" />
+    <Content Include="Belfast-weather-forecast-Frontend\angular.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\package-lock.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\package.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\README.md" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\assets\.gitkeep" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\browserslist" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\tsconfig.app.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\tsconfig.spec.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\src\tslint.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\tsconfig.json" />
+    <Content Include="Belfast-weather-forecast-Frontend\tslint.json" />
     <None Include="Views\Home\SignUp.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -226,6 +252,35 @@
     <EmbeddedResource Include="Migrations\202002161604409_0.resx">
       <DependentUpon>202002161604409_0.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\e2e\src\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\e2e\src\app.po.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\app-routing.module.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\app.component.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\app.module.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\components\Identity\login\login.component.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\components\Identity\register\register.component.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\components\shared\navbar\navbar.component.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\components\weather-forecast\weather-forecast.component.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\interceptors\header.interceptor.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\allModels.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\Auth\LogInUser.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\Auth\SignUser.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\Location\LocationModel.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\Location\Locations.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\Weather\Consolidated_weather_item.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\models\Weather\WeatherLocation.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\services\auth.service.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\services\fetch-weather.service.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\services\identity.service.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\app\services\Rest.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\environments\environment.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\main.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\polyfills.ts" />
+    <TypeScriptCompile Include="Belfast-weather-forecast-Frontend\src\test.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
